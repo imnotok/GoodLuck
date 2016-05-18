@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF5303A01CE9842200E72829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF53039F1CE9842200E72829 /* AppDelegate.swift */; };
-		CF5303A21CE9842200E72829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5303A11CE9842200E72829 /* ViewController.swift */; };
-		CF5303A51CE9842200E72829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5303A31CE9842200E72829 /* Main.storyboard */; };
+		62C10FBEBBAFB27C2370082B /* Pods_GoodLuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1D2949DF3184D735573C8A /* Pods_GoodLuck.framework */; };
 		CF5303A71CE9842200E72829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5303A61CE9842200E72829 /* Assets.xcassets */; };
-		CF5303AA1CE9842200E72829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5303A81CE9842200E72829 /* LaunchScreen.storyboard */; };
+		CFBAC63D1CEC4AD00089C4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */; };
+		CFBAC6521CEC500F0089C4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC64D1CEC500F0089C4E8 /* ViewController.swift */; };
+		CFBAC6531CEC500F0089C4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBAC64F1CEC500F0089C4E8 /* LaunchScreen.storyboard */; };
+		CFBAC6541CEC500F0089C4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBAC6501CEC500F0089C4E8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1D2949DF3184D735573C8A /* Pods_GoodLuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodLuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		987184D373EA08A8755D1F53 /* Pods-GoodLuck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodLuck.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck.release.xcconfig"; sourceTree = "<group>"; };
 		CF53039C1CE9842200E72829 /* GoodLuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodLuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF53039F1CE9842200E72829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF5303A11CE9842200E72829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF5303A41CE9842200E72829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF5303A61CE9842200E72829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF5303A91CE9842200E72829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF5303AB1CE9842200E72829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFBAC64D1CEC500F0089C4E8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFBAC64F1CEC500F0089C4E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFBAC6501CEC500F0089C4E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E540AAE15EFFCAF6FE5B2CF5 /* Pods-GoodLuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodLuck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C10FBEBBAFB27C2370082B /* Pods_GoodLuck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A553630F114A315CD587AB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E540AAE15EFFCAF6FE5B2CF5 /* Pods-GoodLuck.debug.xcconfig */,
+				987184D373EA08A8755D1F53 /* Pods-GoodLuck.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF5303931CE9842100E72829 = {
 			isa = PBXGroup;
 			children = (
 				CF53039E1CE9842200E72829 /* GoodLuck */,
 				CF53039D1CE9842200E72829 /* Products */,
+				0A553630F114A315CD587AB9 /* Pods */,
+				E7B24C4B482775119083E332 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +70,102 @@
 		CF53039E1CE9842200E72829 /* GoodLuck */ = {
 			isa = PBXGroup;
 			children = (
-				CF53039F1CE9842200E72829 /* AppDelegate.swift */,
-				CF5303A11CE9842200E72829 /* ViewController.swift */,
-				CF5303A31CE9842200E72829 /* Main.storyboard */,
+				CFBAC63E1CEC4B0C0089C4E8 /* AppConfig */,
+				CFBAC63B1CEC4ABA0089C4E8 /* AppDelegate */,
+				CFBAC6551CEC50430089C4E8 /* Common */,
+				CFBAC6441CEC4D7C0089C4E8 /* Venders */,
+				CFBAC6511CEC500F0089C4E8 /* Views */,
+				CFBAC64E1CEC500F0089C4E8 /* Storyboads */,
+				CFBAC64C1CEC500F0089C4E8 /* Controllers */,
+				CFBAC64B1CEC4E810089C4E8 /* Business */,
+				CFBAC6401CEC4C9A0089C4E8 /* API */,
 				CF5303A61CE9842200E72829 /* Assets.xcassets */,
-				CF5303A81CE9842200E72829 /* LaunchScreen.storyboard */,
 				CF5303AB1CE9842200E72829 /* Info.plist */,
 			);
 			path = GoodLuck;
+			sourceTree = "<group>";
+		};
+		CFBAC63B1CEC4ABA0089C4E8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CFBAC63E1CEC4B0C0089C4E8 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		CFBAC6401CEC4C9A0089C4E8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAC6561CEC51480089C4E8 /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CFBAC6441CEC4D7C0089C4E8 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		CFBAC64B1CEC4E810089C4E8 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		CFBAC64C1CEC500F0089C4E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAC64D1CEC500F0089C4E8 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CFBAC64E1CEC500F0089C4E8 /* Storyboads */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAC64F1CEC500F0089C4E8 /* LaunchScreen.storyboard */,
+				CFBAC6501CEC500F0089C4E8 /* Main.storyboard */,
+			);
+			path = Storyboads;
+			sourceTree = "<group>";
+		};
+		CFBAC6511CEC500F0089C4E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFBAC6551CEC50430089C4E8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CFBAC6561CEC51480089C4E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E7B24C4B482775119083E332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E1D2949DF3184D735573C8A /* Pods_GoodLuck.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF5303AE1CE9842200E72829 /* Build configuration list for PBXNativeTarget "GoodLuck" */;
 			buildPhases = (
+				3D219B98F0C4819ADEE9134D /* 📦 Check Pods Manifest.lock */,
 				CF5303981CE9842100E72829 /* Sources */,
 				CF5303991CE9842100E72829 /* Frameworks */,
 				CF53039A1CE9842100E72829 /* Resources */,
+				ED46EA0714AB0B5077BAA69F /* 📦 Embed Pods Frameworks */,
+				1A449DF2163A3E21FA41F27F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,44 +229,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5303AA1CE9842200E72829 /* LaunchScreen.storyboard in Resources */,
+				CFBAC6541CEC500F0089C4E8 /* Main.storyboard in Resources */,
 				CF5303A71CE9842200E72829 /* Assets.xcassets in Resources */,
-				CF5303A51CE9842200E72829 /* Main.storyboard in Resources */,
+				CFBAC6531CEC500F0089C4E8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A449DF2163A3E21FA41F27F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D219B98F0C4819ADEE9134D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED46EA0714AB0B5077BAA69F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF5303981CE9842100E72829 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5303A21CE9842200E72829 /* ViewController.swift in Sources */,
-				CF5303A01CE9842200E72829 /* AppDelegate.swift in Sources */,
+				CFBAC6521CEC500F0089C4E8 /* ViewController.swift in Sources */,
+				CFBAC63D1CEC4AD00089C4E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CF5303A31CE9842200E72829 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF5303A41CE9842200E72829 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF5303A81CE9842200E72829 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF5303A91CE9842200E72829 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CF5303AC1CE9842200E72829 /* Debug */ = {
@@ -248,6 +384,7 @@
 		};
 		CF5303AF1CE9842200E72829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E540AAE15EFFCAF6FE5B2CF5 /* Pods-GoodLuck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoodLuck/Info.plist;
@@ -259,6 +396,7 @@
 		};
 		CF5303B01CE9842200E72829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987184D373EA08A8755D1F53 /* Pods-GoodLuck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoodLuck/Info.plist;
@@ -287,6 +425,7 @@
 				CF5303B01CE9842200E72829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,10 @@
+
+platform :ios, '8.0' 
+use_frameworks!
+inhibit_all_warnings!
+target "GoodLuck" do
+
+pod 'Alamofire', '~> 3.4'
+pod 'RealmSwift', '~> 0.102.1'
+pod 'AsyncSwift', '~> 1.7.2'
+end

@@ -1,0 +1,6 @@
+framework module Pods_GoodLuck {
+  umbrella header "Pods-GoodLuck-umbrella.h"
+
+  export *
+  module * { export * }
+}
