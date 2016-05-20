@@ -10,9 +10,21 @@
 		62C10FBEBBAFB27C2370082B /* Pods_GoodLuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1D2949DF3184D735573C8A /* Pods_GoodLuck.framework */; };
 		CF5303A71CE9842200E72829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5303A61CE9842200E72829 /* Assets.xcassets */; };
 		CFBAC63D1CEC4AD00089C4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */; };
-		CFBAC6521CEC500F0089C4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC64D1CEC500F0089C4E8 /* ViewController.swift */; };
+		CFBAC6521CEC500F0089C4E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC64D1CEC500F0089C4E8 /* MainViewController.swift */; };
 		CFBAC6531CEC500F0089C4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBAC64F1CEC500F0089C4E8 /* LaunchScreen.storyboard */; };
 		CFBAC6541CEC500F0089C4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBAC6501CEC500F0089C4E8 /* Main.storyboard */; };
+		CFBAC6581CEC5E240089C4E8 /* GLDoubleColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6571CEC5E240089C4E8 /* GLDoubleColorModel.swift */; };
+		CFBAC65D1CEC5FD10089C4E8 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC65C1CEC5FD10089C4E8 /* DBManager.swift */; };
+		CFBAC65F1CEC618D0089C4E8 /* DataUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC65E1CEC618D0089C4E8 /* DataUpdateManager.swift */; };
+		CFBAC6611CEC61F90089C4E8 /* AnalysisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6601CEC61F90089C4E8 /* AnalysisManager.swift */; };
+		CFBAC6811CEDCDD20089C4E8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6801CEDCDD20089C4E8 /* Utilities.swift */; };
+		CFBAC6901CEEE4410089C4E8 /* EdgePanTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC68B1CEEE4410089C4E8 /* EdgePanTransition.swift */; };
+		CFBAC6911CEEE4410089C4E8 /* ElasticShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC68C1CEEE4410089C4E8 /* ElasticShapeLayer.swift */; };
+		CFBAC6921CEEE4410089C4E8 /* ElasticTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC68D1CEEE4410089C4E8 /* ElasticTransition.swift */; };
+		CFBAC6931CEEE4410089C4E8 /* ElasticTransitionPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC68E1CEEE4410089C4E8 /* ElasticTransitionPresentationController.swift */; };
+		CFBAC6941CEEE4410089C4E8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC68F1CEEE4410089C4E8 /* Util.swift */; };
+		CFBAC6961CEEE5800089C4E8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6951CEEE5800089C4E8 /* MenuViewController.swift */; };
+		CFBAC6981CEEEBEB0089C4E8 /* BottomSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6971CEEEBEA0089C4E8 /* BottomSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +34,21 @@
 		CF5303A61CE9842200E72829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF5303AB1CE9842200E72829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFBAC64D1CEC500F0089C4E8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFBAC64D1CEC500F0089C4E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CFBAC64F1CEC500F0089C4E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFBAC6501CEC500F0089C4E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CFBAC6571CEC5E240089C4E8 /* GLDoubleColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLDoubleColorModel.swift; sourceTree = "<group>"; };
+		CFBAC65C1CEC5FD10089C4E8 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		CFBAC65E1CEC618D0089C4E8 /* DataUpdateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUpdateManager.swift; sourceTree = "<group>"; };
+		CFBAC6601CEC61F90089C4E8 /* AnalysisManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisManager.swift; sourceTree = "<group>"; };
+		CFBAC6801CEDCDD20089C4E8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CFBAC68B1CEEE4410089C4E8 /* EdgePanTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgePanTransition.swift; sourceTree = "<group>"; };
+		CFBAC68C1CEEE4410089C4E8 /* ElasticShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticShapeLayer.swift; sourceTree = "<group>"; };
+		CFBAC68D1CEEE4410089C4E8 /* ElasticTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticTransition.swift; sourceTree = "<group>"; };
+		CFBAC68E1CEEE4410089C4E8 /* ElasticTransitionPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticTransitionPresentationController.swift; sourceTree = "<group>"; };
+		CFBAC68F1CEEE4410089C4E8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		CFBAC6951CEEE5800089C4E8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CFBAC6971CEEEBEA0089C4E8 /* BottomSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSettingViewController.swift; sourceTree = "<group>"; };
 		E540AAE15EFFCAF6FE5B2CF5 /* Pods-GoodLuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodLuck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +101,7 @@
 				CFBAC6511CEC500F0089C4E8 /* Views */,
 				CFBAC64E1CEC500F0089C4E8 /* Storyboads */,
 				CFBAC64C1CEC500F0089C4E8 /* Controllers */,
-				CFBAC64B1CEC4E810089C4E8 /* Business */,
+				CFBAC65B1CEC5FD10089C4E8 /* Business */,
 				CFBAC6401CEC4C9A0089C4E8 /* API */,
 				CF5303A61CE9842200E72829 /* Assets.xcassets */,
 				CF5303AB1CE9842200E72829 /* Info.plist */,
@@ -111,21 +135,17 @@
 		CFBAC6441CEC4D7C0089C4E8 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				CFBAC68A1CEEE4410089C4E8 /* ElasticTransition */,
 			);
 			path = Venders;
-			sourceTree = "<group>";
-		};
-		CFBAC64B1CEC4E810089C4E8 /* Business */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Business;
 			sourceTree = "<group>";
 		};
 		CFBAC64C1CEC500F0089C4E8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CFBAC64D1CEC500F0089C4E8 /* ViewController.swift */,
+				CFBAC64D1CEC500F0089C4E8 /* MainViewController.swift */,
+				CFBAC6951CEEE5800089C4E8 /* MenuViewController.swift */,
+				CFBAC6971CEEEBEA0089C4E8 /* BottomSettingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -149,6 +169,7 @@
 		CFBAC6551CEC50430089C4E8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CFBAC6801CEDCDD20089C4E8 /* Utilities.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -156,8 +177,31 @@
 		CFBAC6561CEC51480089C4E8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CFBAC6571CEC5E240089C4E8 /* GLDoubleColorModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CFBAC65B1CEC5FD10089C4E8 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAC65C1CEC5FD10089C4E8 /* DBManager.swift */,
+				CFBAC65E1CEC618D0089C4E8 /* DataUpdateManager.swift */,
+				CFBAC6601CEC61F90089C4E8 /* AnalysisManager.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		CFBAC68A1CEEE4410089C4E8 /* ElasticTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAC68B1CEEE4410089C4E8 /* EdgePanTransition.swift */,
+				CFBAC68C1CEEE4410089C4E8 /* ElasticShapeLayer.swift */,
+				CFBAC68D1CEEE4410089C4E8 /* ElasticTransition.swift */,
+				CFBAC68E1CEEE4410089C4E8 /* ElasticTransitionPresentationController.swift */,
+				CFBAC68F1CEEE4410089C4E8 /* Util.swift */,
+			);
+			path = ElasticTransition;
 			sourceTree = "<group>";
 		};
 		E7B24C4B482775119083E332 /* Frameworks */ = {
@@ -290,8 +334,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBAC6521CEC500F0089C4E8 /* ViewController.swift in Sources */,
+				CFBAC6911CEEE4410089C4E8 /* ElasticShapeLayer.swift in Sources */,
+				CFBAC6521CEC500F0089C4E8 /* MainViewController.swift in Sources */,
+				CFBAC6921CEEE4410089C4E8 /* ElasticTransition.swift in Sources */,
+				CFBAC6901CEEE4410089C4E8 /* EdgePanTransition.swift in Sources */,
+				CFBAC6581CEC5E240089C4E8 /* GLDoubleColorModel.swift in Sources */,
+				CFBAC6811CEDCDD20089C4E8 /* Utilities.swift in Sources */,
+				CFBAC6931CEEE4410089C4E8 /* ElasticTransitionPresentationController.swift in Sources */,
+				CFBAC6961CEEE5800089C4E8 /* MenuViewController.swift in Sources */,
+				CFBAC6941CEEE4410089C4E8 /* Util.swift in Sources */,
 				CFBAC63D1CEC4AD00089C4E8 /* AppDelegate.swift in Sources */,
+				CFBAC65D1CEC5FD10089C4E8 /* DBManager.swift in Sources */,
+				CFBAC65F1CEC618D0089C4E8 /* DataUpdateManager.swift in Sources */,
+				CFBAC6981CEEEBEB0089C4E8 /* BottomSettingViewController.swift in Sources */,
+				CFBAC6611CEC61F90089C4E8 /* AnalysisManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoodLuck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bj.y.GoodLuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoodLuck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bj.y.GoodLuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";

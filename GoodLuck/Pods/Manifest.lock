@@ -1,23 +1,32 @@
 PODS:
   - Alamofire (3.4.0)
   - AsyncSwift (1.7.2)
+  - Fuzi (0.3.1)
+  - MotionAnimation (0.1.1)
   - Realm (0.102.1):
     - Realm/Headers (= 0.102.1)
   - Realm/Headers (0.102.1)
   - RealmSwift (0.102.1):
     - Realm (= 0.102.1)
+  - SwiftFilePath (0.0.6)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
   - AsyncSwift (~> 1.7.2)
+  - Fuzi (~> 0.3.1)
+  - MotionAnimation (~> 0.1.1)
   - RealmSwift (~> 0.102.1)
+  - SwiftFilePath (~> 0.0.6)
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
   AsyncSwift: 46a78bceb11f0e5bb52747f740d9692ec78d2d7c
+  Fuzi: 25118b725a1637f1676f63ae1acbba1f30a5dd6c
+  MotionAnimation: ff356cfdbedcab52a5bfc94cc96ed44ea2f652e0
   Realm: 5254be610db3e5024879684717bf038990bb59ec
   RealmSwift: 3e24e6bcf56d98ccc134f4909e00839b81a659af
+  SwiftFilePath: 52c1db61018e0a3941191eb71002cb5cbdaa39e7
 
-PODFILE CHECKSUM: 001a773a40d96f95de664a109467fb258d75229e
+PODFILE CHECKSUM: e488d145e42afbd2e8d6b4282aff6da19874fcf2
 
 COCOAPODS: 1.0.0
