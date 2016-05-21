@@ -28,6 +28,8 @@
 		CFBAC6A41CEF70940089C4E8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6A31CEF70940089C4E8 /* RoundButton.swift */; };
 		CFBAC6A81CF027070089C4E8 /* GLAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6A71CF027070089C4E8 /* GLAppConfig.swift */; };
 		CFBAC6AA1CF02DF30089C4E8 /* RoundBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6A91CF02DF30089C4E8 /* RoundBallView.swift */; };
+		CFBAC6AD1CF0B3300089C4E8 /* RoundBallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6AB1CF0B3300089C4E8 /* RoundBallCell.swift */; };
+		CFBAC6AE1CF0B3300089C4E8 /* RoundBallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBAC6AC1CF0B3300089C4E8 /* RoundBallCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		CFBAC6A31CEF70940089C4E8 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		CFBAC6A71CF027070089C4E8 /* GLAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLAppConfig.swift; sourceTree = "<group>"; };
 		CFBAC6A91CF02DF30089C4E8 /* RoundBallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBallView.swift; sourceTree = "<group>"; };
+		CFBAC6AB1CF0B3300089C4E8 /* RoundBallCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBallCell.swift; sourceTree = "<group>"; };
+		CFBAC6AC1CF0B3300089C4E8 /* RoundBallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundBallCell.xib; sourceTree = "<group>"; };
 		E540AAE15EFFCAF6FE5B2CF5 /* Pods-GoodLuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodLuck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +175,8 @@
 			children = (
 				CFBAC6A31CEF70940089C4E8 /* RoundButton.swift */,
 				CFBAC6A91CF02DF30089C4E8 /* RoundBallView.swift */,
+				CFBAC6AB1CF0B3300089C4E8 /* RoundBallCell.swift */,
+				CFBAC6AC1CF0B3300089C4E8 /* RoundBallCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBAC6541CEC500F0089C4E8 /* Main.storyboard in Resources */,
+				CFBAC6AE1CF0B3300089C4E8 /* RoundBallCell.xib in Resources */,
 				CF5303A71CE9842200E72829 /* Assets.xcassets in Resources */,
 				CFBAC6531CEC500F0089C4E8 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -348,6 +355,7 @@
 				CFBAC6921CEEE4410089C4E8 /* ElasticTransition.swift in Sources */,
 				CFBAC6901CEEE4410089C4E8 /* EdgePanTransition.swift in Sources */,
 				CFBAC6581CEC5E240089C4E8 /* GLDoubleColorModel.swift in Sources */,
+				CFBAC6AD1CF0B3300089C4E8 /* RoundBallCell.swift in Sources */,
 				CFBAC6811CEDCDD20089C4E8 /* Utilities.swift in Sources */,
 				CFBAC6A81CF027070089C4E8 /* GLAppConfig.swift in Sources */,
 				CFBAC6A41CEF70940089C4E8 /* RoundButton.swift in Sources */,

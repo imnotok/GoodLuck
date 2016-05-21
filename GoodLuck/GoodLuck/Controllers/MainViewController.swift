@@ -10,9 +10,10 @@ import UIKit
 import MotionAnimation
 
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
     //View
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var topContainerView: UIView!
     @IBOutlet weak var midContainerView: UIView!
     @IBOutlet weak var issueLabel: UILabel!
@@ -25,6 +26,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         self.configViews()
+        self.configTableView()
         // customization
         transition.sticky = true
         transition.showShadow = false
@@ -48,7 +50,29 @@ class MainViewController: UIViewController {
         self.topContainerView.layer.cornerRadius = 6;
         self .midContainerView.layer.cornerRadius = 6;
         self.view.backgroundColor = GLAppConfig.GLColorForRed
-
+       
+    }
+    
+    func configTableView() {
+        let nib = UINib.init(nibName: "RoundBallCell", bundle: nil)
+        self.tableView.registerNib(nib, forCellReuseIdentifier: "identyRoundBallCell")
+        self.tableView.delegate = self;
+        self.tableView.dataSource = self;
+    }
+    //
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let identy = "identyRoundBallCell"
+        let cell = tableView.dequeueReusableCellWithIdentifier(identy)
+        return cell!
     }
     
     func handlePan(pan:UIPanGestureRecognizer){

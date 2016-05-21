@@ -50,6 +50,7 @@ class RoundBallView: UIView {
         for index in 0...6 {
             let buttonRect = CGRect(x: x, y: 0.0, width: width, height: width)
             self.buttons[index].frame = buttonRect
+            self.buttons[index].center.y = self.center.y
             x = x + width + 15
         }
         
