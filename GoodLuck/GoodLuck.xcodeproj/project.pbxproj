@@ -25,6 +25,9 @@
 		CFBAC6941CEEE4410089C4E8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC68F1CEEE4410089C4E8 /* Util.swift */; };
 		CFBAC6961CEEE5800089C4E8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6951CEEE5800089C4E8 /* MenuViewController.swift */; };
 		CFBAC6981CEEEBEB0089C4E8 /* BottomSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6971CEEEBEA0089C4E8 /* BottomSettingViewController.swift */; };
+		CFBAC6A41CEF70940089C4E8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6A31CEF70940089C4E8 /* RoundButton.swift */; };
+		CFBAC6A81CF027070089C4E8 /* GLAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6A71CF027070089C4E8 /* GLAppConfig.swift */; };
+		CFBAC6AA1CF02DF30089C4E8 /* RoundBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC6A91CF02DF30089C4E8 /* RoundBallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		CFBAC68F1CEEE4410089C4E8 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		CFBAC6951CEEE5800089C4E8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CFBAC6971CEEEBEA0089C4E8 /* BottomSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSettingViewController.swift; sourceTree = "<group>"; };
+		CFBAC6A31CEF70940089C4E8 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		CFBAC6A71CF027070089C4E8 /* GLAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLAppConfig.swift; sourceTree = "<group>"; };
+		CFBAC6A91CF02DF30089C4E8 /* RoundBallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBallView.swift; sourceTree = "<group>"; };
 		E540AAE15EFFCAF6FE5B2CF5 /* Pods-GoodLuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodLuck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +126,7 @@
 		CFBAC63E1CEC4B0C0089C4E8 /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
+				CFBAC6A71CF027070089C4E8 /* GLAppConfig.swift */,
 			);
 			path = AppConfig;
 			sourceTree = "<group>";
@@ -162,6 +169,8 @@
 		CFBAC6511CEC500F0089C4E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CFBAC6A31CEF70940089C4E8 /* RoundButton.swift */,
+				CFBAC6A91CF02DF30089C4E8 /* RoundBallView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,10 +349,13 @@
 				CFBAC6901CEEE4410089C4E8 /* EdgePanTransition.swift in Sources */,
 				CFBAC6581CEC5E240089C4E8 /* GLDoubleColorModel.swift in Sources */,
 				CFBAC6811CEDCDD20089C4E8 /* Utilities.swift in Sources */,
+				CFBAC6A81CF027070089C4E8 /* GLAppConfig.swift in Sources */,
+				CFBAC6A41CEF70940089C4E8 /* RoundButton.swift in Sources */,
 				CFBAC6931CEEE4410089C4E8 /* ElasticTransitionPresentationController.swift in Sources */,
 				CFBAC6961CEEE5800089C4E8 /* MenuViewController.swift in Sources */,
 				CFBAC6941CEEE4410089C4E8 /* Util.swift in Sources */,
 				CFBAC63D1CEC4AD00089C4E8 /* AppDelegate.swift in Sources */,
+				CFBAC6AA1CF02DF30089C4E8 /* RoundBallView.swift in Sources */,
 				CFBAC65D1CEC5FD10089C4E8 /* DBManager.swift in Sources */,
 				CFBAC65F1CEC618D0089C4E8 /* DataUpdateManager.swift in Sources */,
 				CFBAC6981CEEEBEB0089C4E8 /* BottomSettingViewController.swift in Sources */,

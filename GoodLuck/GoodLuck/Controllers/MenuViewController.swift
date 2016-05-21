@@ -27,6 +27,11 @@ class MenuViewController: UIViewController,ElasticMenuTransitionDelegate {
     }
     
 
+    @IBAction func didHistoryButtonPressed(sender: AnyObject) {
+        let controller = UIViewController()
+        presentViewController(controller, animated: true, completion: nil)
+    }
+
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
     }

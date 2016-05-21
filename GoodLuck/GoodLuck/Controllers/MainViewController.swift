@@ -12,12 +12,19 @@ import MotionAnimation
 
 class MainViewController: UIViewController {
 
+    //View
+    @IBOutlet weak var topContainerView: UIView!
+    @IBOutlet weak var midContainerView: UIView!
+    @IBOutlet weak var issueLabel: UILabel!
+    
     var transition = ElasticTransition()
     let lgr = UIScreenEdgePanGestureRecognizer()
     let rgr = UIScreenEdgePanGestureRecognizer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.configViews()
         // customization
         transition.sticky = true
         transition.showShadow = false
@@ -27,13 +34,21 @@ class MainViewController: UIViewController {
 //            transition.overlayColor = UIColor(white: 0, alpha: 0.5)
 //            transition.shadowColor = UIColor(white: 0, alpha: 0.5)
         
-        // gesture recognizer
+        // gesture recognizer236,240,241
+        
         lgr.addTarget(self, action: #selector(MainViewController.handlePan(_:)))
         rgr.addTarget(self, action: #selector(MainViewController.handleRightPan(_:)))
         lgr.edges = .Left
         rgr.edges = .Right
         view.addGestureRecognizer(lgr)
         view.addGestureRecognizer(rgr)
+    }
+    
+    func configViews()  {
+        self.topContainerView.layer.cornerRadius = 6;
+        self .midContainerView.layer.cornerRadius = 6;
+        self.view.backgroundColor = GLAppConfig.GLColorForRed
+
     }
     
     func handlePan(pan:UIPanGestureRecognizer){
@@ -81,6 +96,9 @@ class MainViewController: UIViewController {
         let vc = segue.destinationViewController
         vc.transitioningDelegate = transition
         vc.modalPresentationStyle = .Custom
+    }
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
     }
 
 
