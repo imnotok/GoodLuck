@@ -47,10 +47,10 @@ class RoundBallView: UIView {
             print("!!!!warning the the height of RoundBallView is too small")
         }
         var x:CGFloat = 15.0
+        let y:CGFloat = height / 2.0 - width / 2.0
         for index in 0...6 {
-            let buttonRect = CGRect(x: x, y: 0.0, width: width, height: width)
+            let buttonRect = CGRect(x: x, y: y, width: width, height: width)
             self.buttons[index].frame = buttonRect
-            self.buttons[index].center.y = self.center.y
             x = x + width + 15
         }
         

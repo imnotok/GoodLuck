@@ -47,8 +47,8 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
     }
     
     func configViews()  {
-        self.topContainerView.layer.cornerRadius = 6;
-        self .midContainerView.layer.cornerRadius = 6;
+        self.topContainerView.layer.cornerRadius = 6
+        self .midContainerView.layer.cornerRadius = 6
         self.view.backgroundColor = GLAppConfig.GLColorForRed
        
     }
@@ -56,8 +56,11 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
     func configTableView() {
         let nib = UINib.init(nibName: "RoundBallCell", bundle: nil)
         self.tableView.registerNib(nib, forCellReuseIdentifier: "identyRoundBallCell")
-        self.tableView.delegate = self;
-        self.tableView.dataSource = self;
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.tableView.editing = true
+
+        //self.tableView.allowsMultipleSelection = true
     }
     //
     
@@ -74,6 +77,12 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         let cell = tableView.dequeueReusableCellWithIdentifier(identy)
         return cell!
     }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+//    func tableView(tableView: UITableView, shouldHighlightRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+//        return false
+//    }
     
     func handlePan(pan:UIPanGestureRecognizer){
         if pan.state == .Began{
@@ -83,6 +92,13 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
             transition.updateInteractiveTransition(gestureRecognizer: pan)
         }
     }
+    
+//    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+//        return true
+//    }
+//    func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
+//        return UITableViewCellEditingStyle.Delete
+//    }
     
     func handleRightPan(pan:UIPanGestureRecognizer){
         if pan.state == .Began{
