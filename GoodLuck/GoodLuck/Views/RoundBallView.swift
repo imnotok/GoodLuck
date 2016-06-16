@@ -54,8 +54,14 @@ class RoundBallView: UIView {
             x = x + width + 15
         }
     }
-    
-    func startRandom() -> Void{
-        
+    func setButtonTitles(numbers:[Int]) -> Void {
+        for i in 0...6 {
+            if numbers.count < i + 1 {
+                self.buttons[i].setTitle(String(0), forState: UIControlState.Normal)
+            }
+            else {
+                self.buttons[i].setTitle(String(numbers[i]), forState: UIControlState.Normal)
+            }
+        }
     }
 }

@@ -7,9 +7,20 @@
 //
 
 import UIKit
+import SwiftRandom
 
 class RandomManager: NSObject {
-    func random(except:[Int]) -> [Int] {
-        return [0]
+    static func randomBall() -> [Int] {
+        var balls:[Int] = []
+        while balls.count < 6 {
+            let ball = Int.random(1, 32)
+            if !balls.contains(ball) {
+                balls.append(ball)
+            }
+        }
+        balls = balls.sort()
+        balls.append(Int.random(1, 16))
+        print(balls)
+        return balls
     }
 }

@@ -43,7 +43,7 @@ class RoundButton: UIButton {
     internal init(roundButtonSytle: RoundButtonStyle) {
         self.roundButtonSytle = roundButtonSytle
         super.init(frame: CGRectZero)
-        let title = self.roundButtonSytle == RoundButtonStyle.Red ? "R" : "B"
+        let title = self.roundButtonSytle == RoundButtonStyle.Red ? "?" : "?"
         self.setTitle(title, forState: UIControlState.Normal)
         self.titleLabel?.font = UIFont.boldSystemFontOfSize(14)
         self.setTyle()
