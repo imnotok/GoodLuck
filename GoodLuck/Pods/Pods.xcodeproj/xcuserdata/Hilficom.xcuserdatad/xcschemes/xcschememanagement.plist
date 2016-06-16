@@ -44,15 +44,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftRandom.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>041DA4593F28293C478734BF8E564FB6</key>
+		<key>2DDF1B75B62F6A6878584BAC88197F92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3E19FB5CFCB8600C109A178F9D1E75A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CDCE3951BA96D97FE15D32FC41B6B7C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,22 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>B75B877B34B5B7B311E3377F50396482</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D1DC35DB2C695031A72543555FB23729</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5F812C6EAC8604FA5E1947C1AA00E34</key>
+		<key>E4174A48DFE0E5DB7E5E389C791D1FFF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E628A2D6150B1C8ACB4644B59BA0532E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F5BECDC78D0299803D9EB67F5245719E</key>
+		<key>F0B916EB71267C5F3D7F6067CB695584</key>
 		<dict>
 			<key>primary</key>
 			<true/>

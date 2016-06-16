@@ -14,6 +14,7 @@ class BottomSettingViewController: UIViewController, ElasticMenuTransitionDelega
     var dismissByBackgroundTouch = true
     var dismissByBackgroundDrag = true
     var dismissByForegroundDrag = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

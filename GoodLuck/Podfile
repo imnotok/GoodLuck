@@ -10,5 +10,6 @@ pod 'AsyncSwift', '~> 1.7.2'
 pod 'Fuzi', '~> 0.3.1'
 pod 'SwiftFilePath', '~> 0.0.6'
 pod 'MotionAnimation', '~> 0.1.1'
+pod 'SwiftRandom', '~> 0.1.7'
 end
 

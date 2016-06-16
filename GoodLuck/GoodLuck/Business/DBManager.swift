@@ -41,4 +41,11 @@ class DBManager: NSObject {
         })
     }
     
+    
+    func topModels(limitCount:Int) -> Results<GLDoubleColorModel> {
+        let realm = try! Realm(fileURL: NSURL(fileURLWithPath: DB_PATH))
+        let items = realm.objects(GLDoubleColorModel)
+        return items
+    }
+    
 }

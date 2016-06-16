@@ -44,6 +44,8 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         rgr.edges = .Right
         view.addGestureRecognizer(lgr)
         view.addGestureRecognizer(rgr)
+        //DataUpdateManager.updateData()
+       // AnalysisManager.sharedInstance.testKill()
     }
     
     func configViews()  {

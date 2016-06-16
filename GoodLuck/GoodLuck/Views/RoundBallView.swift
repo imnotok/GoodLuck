@@ -53,6 +53,9 @@ class RoundBallView: UIView {
             self.buttons[index].frame = buttonRect
             x = x + width + 15
         }
+    }
+    
+    func startRandom() -> Void{
         
     }
 }

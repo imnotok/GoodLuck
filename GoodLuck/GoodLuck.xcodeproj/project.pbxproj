@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		62C10FBEBBAFB27C2370082B /* Pods_GoodLuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1D2949DF3184D735573C8A /* Pods_GoodLuck.framework */; };
 		CF5303A71CE9842200E72829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5303A61CE9842200E72829 /* Assets.xcassets */; };
+		CFB6904B1D12894B00A80A5E /* RandomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6904A1D12894B00A80A5E /* RandomManager.swift */; };
 		CFBAC63D1CEC4AD00089C4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */; };
 		CFBAC6521CEC500F0089C4E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC64D1CEC500F0089C4E8 /* MainViewController.swift */; };
 		CFBAC6531CEC500F0089C4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBAC64F1CEC500F0089C4E8 /* LaunchScreen.storyboard */; };
@@ -38,6 +39,7 @@
 		CF53039C1CE9842200E72829 /* GoodLuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodLuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5303A61CE9842200E72829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF5303AB1CE9842200E72829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB6904A1D12894B00A80A5E /* RandomManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomManager.swift; sourceTree = "<group>"; };
 		CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFBAC64D1CEC500F0089C4E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CFBAC64F1CEC500F0089C4E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				CFBAC65C1CEC5FD10089C4E8 /* DBManager.swift */,
 				CFBAC65E1CEC618D0089C4E8 /* DataUpdateManager.swift */,
 				CFBAC6601CEC61F90089C4E8 /* AnalysisManager.swift */,
+				CFB6904A1D12894B00A80A5E /* RandomManager.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				CFBAC6AD1CF0B3300089C4E8 /* RoundBallCell.swift in Sources */,
 				CFBAC6811CEDCDD20089C4E8 /* Utilities.swift in Sources */,
 				CFBAC6A81CF027070089C4E8 /* GLAppConfig.swift in Sources */,
+				CFB6904B1D12894B00A80A5E /* RandomManager.swift in Sources */,
 				CFBAC6A41CEF70940089C4E8 /* RoundButton.swift in Sources */,
 				CFBAC6931CEEE4410089C4E8 /* ElasticTransitionPresentationController.swift in Sources */,
 				CFBAC6961CEEE5800089C4E8 /* MenuViewController.swift in Sources */,
@@ -392,7 +396,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: kun zhang (4VY7LV2J65)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -414,7 +417,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "830e44ae-8647-45aa-972d-30c2329fa16b";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -438,7 +440,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: kun zhang (4VY7LV2J65)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -463,6 +464,7 @@
 			baseConfigurationReference = E540AAE15EFFCAF6FE5B2CF5 /* Pods-GoodLuck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GoodLuck/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -476,6 +478,7 @@
 			baseConfigurationReference = 987184D373EA08A8755D1F53 /* Pods-GoodLuck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GoodLuck/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

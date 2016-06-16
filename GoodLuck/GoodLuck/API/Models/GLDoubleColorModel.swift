@@ -28,4 +28,8 @@ class GLDoubleColorModel: Object {
     override static func indexedProperties() -> [String] {
         return ["key_Id",]
     }
+    
+    func toArray() -> Array<Int> {
+        return [r1, r2, r3, r4, r5, r6, g7]
+    }
 }
