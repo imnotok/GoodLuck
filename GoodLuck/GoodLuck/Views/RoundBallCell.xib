@@ -28,6 +28,9 @@
                     <constraint firstItem="k6o-5T-txE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mO6-ku-wW1"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="ballView" destination="k6o-5T-txE" id="9cX-4L-35i"/>
+            </connections>
             <point key="canvasLocation" x="251.5" y="392.5"/>
         </tableViewCell>
     </objects>

@@ -178,6 +178,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="bottomContainerView" destination="wFj-e2-W5w" id="Sem-Bd-Io7"/>
                         <outlet property="issueLabel" destination="47f-sy-gFj" id="tfP-Yc-qlT"/>
                         <outlet property="midContainerView" destination="ft6-Tn-3wd" id="2oQ-83-c1a"/>
                         <outlet property="tableView" destination="8eS-2P-Gad" id="o4i-Zf-9nm"/>

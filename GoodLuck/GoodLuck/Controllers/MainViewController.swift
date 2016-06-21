@@ -11,16 +11,18 @@ import MotionAnimation
 
 
 class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
-
+    
     //View
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var topContainerView: UIView!
     @IBOutlet weak var midContainerView: UIView!
+    @IBOutlet weak var bottomContainerView: UIView!
     @IBOutlet weak var issueLabel: UILabel!
     
     var transition = ElasticTransition()
     let lgr = UIScreenEdgePanGestureRecognizer()
     let rgr = UIScreenEdgePanGestureRecognizer()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,9 +34,9 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         transition.showShadow = false
         transition.panThreshold = 0.2
         transition.transformType = .TranslateMid
-//        
-//            transition.overlayColor = UIColor(white: 0, alpha: 0.5)
-//            transition.shadowColor = UIColor(white: 0, alpha: 0.5)
+        //
+        //            transition.overlayColor = UIColor(white: 0, alpha: 0.5)
+        //            transition.shadowColor = UIColor(white: 0, alpha: 0.5)
         
         // gesture recognizer236,240,241
         
@@ -45,14 +47,18 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         view.addGestureRecognizer(lgr)
         view.addGestureRecognizer(rgr)
         //DataUpdateManager.updateData()
-       // AnalysisManager.sharedInstance.testKill()
+        // AnalysisManager.sharedInstance.testKill()
+        createBallData(3)
     }
     
+    // MARK: - Config view and Data
+    // MARK:  Config view
     func configViews()  {
         self.topContainerView.layer.cornerRadius = 6
-        self .midContainerView.layer.cornerRadius = 6
+        self.midContainerView.layer.cornerRadius = 6
+        self.bottomContainerView.layer.cornerRadius = 6
         self.view.backgroundColor = GLAppConfig.GLColorForRed
-       
+        
     }
     
     func configTableView() {
@@ -61,30 +67,39 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.editing = true
-
+        
         //self.tableView.allowsMultipleSelection = true
     }
-    //
     
+    // MARK:  Config Data
+    
+    func createBallData(ballCount:Int) {
+        DataManager.share.resetBalls(ballCount)
+        tableView.reloadData()
+    }
+    
+    //MARK: - UITableView
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return DataManager.share.balls.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let identy = "identyRoundBallCell"
-        let cell = tableView.dequeueReusableCellWithIdentifier(identy)
-        return cell!
+        let cell = tableView.dequeueReusableCellWithIdentifier(identy)  as? RoundBallCell
+        let roundCell:RoundBallCell = cell!
+        roundCell.setCellData(DataManager.share.balls[indexPath.row])
+        return roundCell
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
     }
-//    func tableView(tableView: UITableView, shouldHighlightRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-//        return false
-//    }
+    //    func tableView(tableView: UITableView, shouldHighlightRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+    //        return false
+    //    }
     
     func handlePan(pan:UIPanGestureRecognizer){
         if pan.state == .Began{
@@ -95,12 +110,12 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         }
     }
     
-//    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-//        return true
-//    }
-//    func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
-//        return UITableViewCellEditingStyle.Delete
-//    }
+    //    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+    //        return true
+    //    }
+    //    func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
+    //        return UITableViewCellEditingStyle.Delete
+    //    }
     
     func handleRightPan(pan:UIPanGestureRecognizer){
         if pan.state == .Began{
@@ -118,9 +133,10 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
     }
     
     @IBAction func bottomBtnTouched(sender: AnyObject) {
-        transition.edge = .Bottom
-        transition.startingPoint = sender.center
-        performSegueWithIdentifier("toBottomSettingViewController", sender: self)
+        DataManager.share.randomBall()
+        //transition.edge = .Bottom
+        //transition.startingPoint = sender.center
+        //performSegueWithIdentifier("toBottomSettingViewController", sender: self)
     }
     
     @IBAction func aboutBtnTouched(sender: AnyObject) {
@@ -142,7 +158,7 @@ class MainViewController: UIViewController,UITableViewDelegate, UITableViewDataS
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
     }
-
-
+    
+    
 }
 

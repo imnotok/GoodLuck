@@ -64,4 +64,10 @@ class RoundBallView: UIView {
             }
         }
     }
+    
+    func setButtonTitle(title:String, buttonIndex:Int) {
+        if buttonIndex < buttons.count {
+            buttons[buttonIndex].setTitle(title, forState: UIControlState.Normal)
+        }
+    }
 }

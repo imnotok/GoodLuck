@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62C10FBEBBAFB27C2370082B /* Pods_GoodLuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1D2949DF3184D735573C8A /* Pods_GoodLuck.framework */; };
+		CF0B2EDC1D18FF4800BA6439 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B2EDB1D18FF4800BA6439 /* DataManager.swift */; };
 		CF5303A71CE9842200E72829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5303A61CE9842200E72829 /* Assets.xcassets */; };
 		CFB6904B1D12894B00A80A5E /* RandomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6904A1D12894B00A80A5E /* RandomManager.swift */; };
 		CFBAC63D1CEC4AD00089C4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAC63C1CEC4AD00089C4E8 /* AppDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		4E1D2949DF3184D735573C8A /* Pods_GoodLuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodLuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		987184D373EA08A8755D1F53 /* Pods-GoodLuck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodLuck.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodLuck/Pods-GoodLuck.release.xcconfig"; sourceTree = "<group>"; };
+		CF0B2EDB1D18FF4800BA6439 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CF53039C1CE9842200E72829 /* GoodLuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodLuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5303A61CE9842200E72829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF5303AB1CE9842200E72829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				CFBAC65E1CEC618D0089C4E8 /* DataUpdateManager.swift */,
 				CFBAC6601CEC61F90089C4E8 /* AnalysisManager.swift */,
 				CFB6904A1D12894B00A80A5E /* RandomManager.swift */,
+				CF0B2EDB1D18FF4800BA6439 /* DataManager.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBAC6911CEEE4410089C4E8 /* ElasticShapeLayer.swift in Sources */,
+				CF0B2EDC1D18FF4800BA6439 /* DataManager.swift in Sources */,
 				CFBAC6521CEC500F0089C4E8 /* MainViewController.swift in Sources */,
 				CFBAC6921CEEE4410089C4E8 /* ElasticTransition.swift in Sources */,
 				CFBAC6901CEEE4410089C4E8 /* EdgePanTransition.swift in Sources */,
